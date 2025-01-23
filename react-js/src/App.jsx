@@ -1,28 +1,43 @@
 import './App.css'
-import Dialog from './Dialog'; // Import the dialog component
-
+import {ZPwaInstallDialog, ZPwaInstallInstruc}  from 'z-pwa-install-dialog';
 
 
 function App() {
 
   const handleDownload = () => {
     alert("Downloading PWA...");
-    // Your download logic here
+  };
+
+  const handleClose = () => {
+    alert("Closing Dialog...");
   };
 
 
 
   return (
     <>
-
       <h1>Hello this is a demo for the pwa install dialog package</h1>
       <div className="App">
       <h1>Welcome to the PWA Install Demo</h1>
+      <ZPwaInstallInstruc/>
 
 
-      <Dialog onDownloadPwa={handleDownload}>
-        <button className="dialog-trigger">Install App</button>
-      </Dialog>
+      {/* <ZPwaInstallDialog/> */}
+
+
+      <ZPwaInstallDialog>
+        {/* must be a dom element not text! */}
+        <div>hhh</div>
+      </ZPwaInstallDialog>
+
+    <ZPwaInstallDialog title="hello world" onDownloadPwa={handleDownload}
+    onClose={handleClose}
+    //isOpen={open}
+    >
+
+    </ZPwaInstallDialog>
+
+    
     </div>
     </>
   )
