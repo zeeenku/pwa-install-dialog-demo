@@ -19,8 +19,8 @@ importers:
         specifier: ^17.0.2
         version: 17.0.2(react@17.0.2)
       z-pwa-install-dialog:
-        specifier: 1.0.1
-        version: 1.0.1(react-dom@17.0.2(react@17.0.2))(react@17.0.2)
+        specifier: 1.0.8
+        version: 1.0.8(react-dom@17.0.2(react@17.0.2))(react@17.0.2)
     devDependencies:
       '@eslint/js':
         specifier: ^9.27.0
@@ -1301,8 +1301,8 @@ packages:
     resolution: {integrity: sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==}
     engines: {node: '>=10'}
 
-  z-pwa-install-dialog@1.0.1:
-    resolution: {integrity: sha512-QGg/3kG2K+38QUkcBxY30RAHQqnAqMuyONn1/HeqhJoM4CDkbqk1lvq3SwpF4UI/qSAlECrwkjgs8k8G7dV+Kw==}
+  z-pwa-install-dialog@1.0.8:
+    resolution: {integrity: sha512-0wwT7hoJMFSoqI/YV6J9wpwti92dz3yg/FSomfHiQwjIjzr7ncAALj+BkpCmV/jtjM05vGvwFz9ewbmn9xob6A==}
     peerDependencies:
       react: '>=17.0.2'
       react-dom: '>=17.0.2'
@@ -2677,7 +2677,7 @@ snapshots:
 
   yocto-queue@0.1.0: {}
 
-  z-pwa-install-dialog@1.0.1(react-dom@17.0.2(react@17.0.2))(react@17.0.2):
+  z-pwa-install-dialog@1.0.8(react-dom@17.0.2(react@17.0.2))(react@17.0.2):
     dependencies:
       device-detector-js: 3.0.3
       react: 17.0.2
