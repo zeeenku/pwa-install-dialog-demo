@@ -6,9 +6,9 @@ function App() {
 
   const handleDownload = () => {
     alert("Downloading PWA...");
-  };
-
-  const handleClose = () => {
+  }; 
+ 
+  const handleClose = () => { 
     alert("Closing Dialog...");
   };
 
